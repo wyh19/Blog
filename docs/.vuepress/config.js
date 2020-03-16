@@ -1,7 +1,7 @@
 module.exports = {
     base: '/Blog/',
-    title: '云知声文档中心教程',
-    description: '云知声文档中心教程，帮你快速入门文档编写',
+    title: 'wyh19文档中心',
+    description: 'wyh19文档中心,使用Vuepress编写，用于日常工作中的技术文档积累',
     themeConfig: {
         logo: '/assets/logo.png',
         nav: [
