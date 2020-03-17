@@ -10,21 +10,11 @@ module.exports = {
                 text: '系列文章',
                 items: [
                     {
-                        text: 'MD语法',
-                        items: [
-                            { text: '基本语法', link: '/guide/basic-grammar.md' },
-                            { text: '补充语法', link: '/guide/high_grammar.md' },
-                        ]
+                        text: 'Vue学习笔记',
+                        link: '/series/vue-study'
                     },
-                    {
-                        text: '配置项', items: [
-                            { text: '常用配置项', link: '/guide/config.md' },
-                            { text: '官方配置文档', link: 'https://www.vuepress.cn/config', target: '_blank' }
-                        ]
-                    }
                 ]
             },
-            { text: 'Gitlab', link: 'http://gitlab-iot.yzs.io/frontEnd/doc-basic' },
         ],
         sidebar: 'auto'
     },
