@@ -9,12 +9,17 @@ module.exports = {
             {
                 text: '系列文章',
                 items: [
-                    {
-                        text: 'Vue学习笔记',
-                        link: '/series/vue-study'
-                    },
+                    { text: 'Vue学习笔记', link: '/series/vue-study/' },
+                    { text: 'Typescript学习笔记', link: '/series/ts-study/' },
                 ]
             },
+            {
+                text: '日常攻略',
+                items: [
+                    { text: 'Vue学习笔记', link: '/series/vue-study/' },
+                    { text: 'Typescript学习笔记', link: '/series/ts-study/' },
+                ]
+            }
         ],
         sidebar: 'auto'
     },
